@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,6 +7,7 @@
     tools:context="com.example.estebanjojoa.menus.MainActivity"
     android:orientation="vertical">
 
+    <!--
    <Button
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
@@ -25,6 +26,15 @@
         android:layout_height="wrap_content"
         android:text="Guardar"
         android:theme="@style/RaisedButtonDark"
-        android:src="@drawable/icons8_guardar_24"/>
+        android:src="@drawable/icons8_guardar_24"/> -->
 
-</LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/icons8_m_s_96"
+        android:layout_margin="16dp"/>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
