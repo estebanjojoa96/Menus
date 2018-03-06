@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.estebanjojoa.menus.MainActivity"
+    android:padding="10dp"
     android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border_item"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hola"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="5dp"
+            android:background="@color/colorPrimaryDark">
+
+
+        </view>
+
+
 
     <!--
    <Button
@@ -28,13 +54,14 @@
         android:theme="@style/RaisedButtonDark"
         android:src="@drawable/icons8_guardar_24"/> -->
 
-    <android.support.design.widget.FloatingActionButton
+   <!-- <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:src="@drawable/icons8_m_s_96"
-        android:layout_margin="16dp"/>
+        android:layout_margin="16dp"/> -->
 
 
 
-</android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
